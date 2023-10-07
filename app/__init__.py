@@ -1,18 +1,26 @@
 from flask import Flask  # facilitate flask webserving
 from flask import render_template  # facilitate jinja templating
 from flask import request
-from flask.helpers import make_response  # facilitate form submission
-from answer.py import get_answer
+from flask.helpers import make_response  # facilitate form submissio
+from flask import session, redirect
+from data.users import *
+from keys import *
+
+# from answer.py import get_answer
 #the conventional way:
 #from flask import Flask, render_template, request
 
 app = Flask(__name__)  # create Flask object
+app.secret_key = flask_secret_key # set the secret key
+
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
     """
     home page
     """
+    if not 'email' in session or session['email'] == "":
+        return redirect("/login")
     return "Home page goes here. maybe list all the web app integrations and redirect to login if not logged in"
 
 
@@ -21,6 +29,23 @@ def disp_loginpage():
     """
     renders the login page
     """
+    if request.method == "GET":
+        return render_template('login.html',error="")
+    if request.method == "POST":
+        email = request.form.get("email", default = "")
+        password = request.form.get("password", default="")
+
+    if not user_exists(email):
+            error = "Incorrect email or password"
+            return render_template('login.html', error=error)
+    else:
+            if not verify_user(email, password):
+                error = "Incorrect email or password"
+                return render_template('login.html', error=error)
+            else:
+                session['email'] = email
+                return redirect("/")
+
     return render_template('login.html',error="")
     #brings up the login.html page
     #askes for inputs of a text and to press a submit button
