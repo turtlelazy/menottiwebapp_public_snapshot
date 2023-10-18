@@ -21,7 +21,8 @@ def home():
     """
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
-    return "Home page goes here. maybe list all the web app integrations and redirect to login if not logged in"
+    return render_template("home_page.html",user=session['email'])
+    #return "Home page goes here. maybe list all the web app integrations and redirect to login if not logged in"
 
 
 @app.route("/login", methods=['GET', 'POST'])
@@ -49,6 +50,20 @@ def disp_loginpage():
     return render_template('login.html',error="")
     #brings up the login.html page
     #askes for inputs of a text and to press a submit button
+
+@app.route("/logout",methods=['GET','POST'])
+def logout():
+    session['email'] = ""
+    return redirect("/login")  
+@app.route("/ask",methods=["GET","POST"])
+def ask_gpt():
+    if not 'email' in session or session['email'] == "":
+        return redirect("/login")
+
+    if admin_verification(session['email']):
+        return "This person is allowed to be here!"
+    else:
+        return redirect("/")
 
 if __name__ == "__main__":  
     """
