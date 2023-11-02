@@ -61,7 +61,22 @@ def ask_gpt():
         return redirect("/login")
 
     if admin_verification(session['email']):
-        return "This person is allowed to be here!"
+        if request.method == "GET":
+            return render_template("qa_search.html",error="",response="")
+        elif request.method == "POST":
+            error = "Something is in the water"
+            response = request.form.get("query", default="")
+            return render_template("qa_search.html",error=error,response=response)
+    else:
+        return redirect("/")
+
+@app.route("/billing",methods=["GET","POST"])
+def bill():
+    if not 'email' in session or session['email'] == "":
+        return redirect("/login")
+
+    if admin_verification(session['email']):
+        return render_template("billing_upload.html",error="")
     else:
         return redirect("/")
 
