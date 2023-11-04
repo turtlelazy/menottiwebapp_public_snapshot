@@ -24,6 +24,10 @@ def get_salt(email):
     return users.get_value(email,"salt")
 def get_hash(email):
     return users.get_value(email,"hash")
+
+def unique_name(email):
+    return email.replace("@","").replace(".","")
+
 # def get_email(username):
 #     return users.get_value(username, "email")
 # def get_username(email):
