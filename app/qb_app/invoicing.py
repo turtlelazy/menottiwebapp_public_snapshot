@@ -55,11 +55,12 @@ def invoice(auth_client, JSON):
 
         # report_log("invoice_logs.txt",
         #            str(JSON["CustomerRef"]["value"]) + " : " + json_formatted_str + "\n")
-        return json_object["Invoice"]["DocNumber"]
+        return [json_object["Invoice"]["DocNumber"],json_object["Invoice"]["CustomerRef"]["name"]]
 
     except:
         print("failed")
         report_log("invoice_logs.txt", str(JSON["CustomerRef"]["value"]) +  " : " + str(json_formatted_str) + "\n")
+        return ""
         #print(json_formatted_str)
 
 
@@ -68,6 +69,25 @@ def get_url():
 
 def set_auth(auth_code,realm_id):
     auth_client.get_bearer_token(auth_code, realm_id=realm_id)
+
+def run_invoices(auth_client,year,month,day,invoice_collection,weekly_id,starting_invoice_num,temp_rates):
+    invoices_JSON = invoice_collection_to_JSON( #get the json of the invoices
+        invoice_collection, year, month, day)
+    information = []
+    #print(json.dumps(invoices_JSON, indent=2))
+    for i in range(len(weekly_id)):
+        weekly_id[i] = int(weekly_id[i])
+        print(weekly_id[i])
+    for invoice_JSON in invoices_JSON:
+        if int(invoice_JSON["CustomerRef"]["value"]) in weekly_id:
+            proceed = "y"
+            if proceed == "y":
+                #print(invoice_JSON)
+                invoice_JSON["DocNumber"] = starting_invoice_num + 1
+                invoice_JSON["BillEmail"] = {"Address" : get_email_by_id(temp_rates,invoice_JSON["CustomerRef"]["value"])}
+                starting_invoice_num += 1
+                information.append(invoice(auth_client,invoice_JSON))
+    return information
 
 def run_script(auth_code, realm_id,year,month,day,csv_rates,schedule,weekly_id=None):
     starting_invoice_num = 20592

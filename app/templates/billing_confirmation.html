@@ -11,18 +11,18 @@
 
 <body class="mt-2 px-4">
     <br>
-    <img src="logo_menotti.png">
+    <img src="/static/logo_menotti.png">
     <br>
     <br>
     <h1>Quickbooks Automated Billing</h1>
     <h3>Select the projects to bill out</h3>
     <form class="" action="/confirm" method="POST">
-        <input class="form-check-input" type="checkbox" value="" id="projectSite1">
-        <label class="form-check-label" for="projectSite1"> Project Site 1... </label>
-        <br>
+        {% for item in locations %}
+            <input class="form-check-input" type="checkbox" name="location_id" value="{{item[1]}}" id="{{item[1]}}">
+            <label class="form-check-label" for="{{item[1]}}"> <a href="/preview/invoice/{{item[1]}}" target=”_blank”>{{item[0]}} </a></label>
+            <br>
 
-        <input class="form-check-input" type="checkbox" value="" id="projectSite2">
-        <label class="form-check-label" for="projectSite2"> Project Site 2... </label>
+        {% endfor %}
 
         {% if error != "" %}
         <p style="color:red">{{ error }}</p>

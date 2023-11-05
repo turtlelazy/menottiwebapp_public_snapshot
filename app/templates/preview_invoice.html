@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preview Invoice - Menotti Enterprise, LLC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="mt-2 px-4">
+    <br>
+    <img src="/static/logo_menotti.png">
+    <br>
+    <br>
+    <h1>{{location}} Invoice Preview</h1>
+    <p><b>Total Hours: {{totals[0]}}</b></p>
+    <p><b>Total Amount: {{totals[1]}}</b></p>
+
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th scope="col"> Date </th>
+                <th scope="col"> Role </th>
+                <th scope="col"> Hours </th>
+                <th scope="col"> Rate </th>
+                <th scope="col"> Total </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in invoice %}
+            <tr>
+                <td>{{item.Date}}</td>
+                <td>{{item.Role}}</td>
+                <td>{{item.Hours}}</td>
+                <td>{{item.RateVal}}</td>
+                <td>{{item.Total}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

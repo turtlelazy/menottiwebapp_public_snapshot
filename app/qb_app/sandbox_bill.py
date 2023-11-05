@@ -160,9 +160,14 @@ def invoice_to_JSON(invoice, id, year: int, month: int, day: int):
 def invoice_collection_to_JSON(invoice_collection: dict, year: int, month: int, day: int):
     total_collection = []
     for invoice in invoice_collection.keys():
+        # try:
         if invoice_collection[invoice][0]["Billing"] == "Rate":
             invoice_JSON = invoice_to_JSON(invoice_collection[invoice], invoice,year,month,day)
             total_collection.append(invoice_JSON)
+        # except Exception as error:
+        #     print(f"problem with invoice {invoice}")
+        #     print("An exception occurred:", error) # An exception occurred: division by zero
+
     
     return total_collection
 
