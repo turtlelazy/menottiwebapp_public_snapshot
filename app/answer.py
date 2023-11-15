@@ -47,7 +47,7 @@ pinecone.init(
 
 index_name = "langchain-demo-index"
 
-#index = Pinecone.from_documents(docs, embeddings, index_name=index_name)
+# index = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 index = Pinecone.from_existing_index(index_name, embeddings)
 
 

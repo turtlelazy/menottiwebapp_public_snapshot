@@ -13,6 +13,7 @@ import pandas
 import os
 from os.path import join, dirname, realpath
 from werkzeug.utils import secure_filename
+from answer import get_answer
 
 # from answer.py import get_answer
 #the conventional way:
@@ -80,8 +81,9 @@ def ask_gpt():
         if request.method == "GET":
             return render_template("qa_search.html",error="",response="")
         elif request.method == "POST":
-            error = "Something is in the water"
-            response = request.form.get("query", default="")
+            # error = "Something is in the water"
+            error=""
+            response = get_answer(request.form.get("query", default=""))
             return render_template("qa_search.html",error=error,response=response)
     else:
         return redirect("/")

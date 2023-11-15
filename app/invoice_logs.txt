@@ -5700,3 +5700,3267 @@
     },
     "time": "2023-11-04T21:10:20.392-07:00"
 }
+1691 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66124",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T09:49:32-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T09:49:32-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20606",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1392.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-30",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 780.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-30",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 348.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 435.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "12",
+                "LineNum": 12,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 435.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "13",
+                "LineNum": 13,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "14",
+                "LineNum": 14,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "15",
+                "LineNum": 15,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "16",
+                "LineNum": 16,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 348.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "17",
+                "LineNum": 17,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "18",
+                "LineNum": 18,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "19",
+                "LineNum": 19,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "20",
+                "LineNum": 20,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 261.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 1.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "21",
+                "LineNum": 21,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "22",
+                "LineNum": 22,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 12457.75,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1691",
+            "name": "Urban Atelier Group, LLC - 100 Flatbush Ave"
+        },
+        "BillAddr": {
+            "Id": "4136",
+            "Line1": "100 Flatbush Ave",
+            "City": "Brooklyn",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "11217"
+        },
+        "ShipAddr": {
+            "Id": "4136",
+            "Line1": "100 Flatbush Ave",
+            "City": "Brooklyn",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "11217"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4901",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 12457.75,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 12457.75
+    },
+    "time": "2023-11-08T09:49:32.623-08:00"
+}
+1697 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66125",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T09:49:34-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T09:49:34-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20607",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1650.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-30",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 10,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 7700.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1697",
+            "name": "Hunter Roberts - 125 Barclay Street"
+        },
+        "BillAddr": {
+            "Id": "3764",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "ShipAddr": {
+            "Id": "3764",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4902",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 7700.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 7700.0
+    },
+    "time": "2023-11-08T09:49:33.947-08:00"
+}
+1726 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66126",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T09:49:34-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T09:49:34-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20608",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 912.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 114,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 912.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 114,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 912.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 114,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 912.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 114,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 912.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 114,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 4560.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1726",
+            "name": "Bruno Frustaci Contracting Inc. - 2880 Jerome Ave"
+        },
+        "BillAddr": {
+            "Id": "4599",
+            "Line1": "2880 Jerome Ave"
+        },
+        "ShipAddr": {
+            "Id": "4599",
+            "Line1": "2880 Jerome Ave"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4903",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 4560.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 4560.0
+    },
+    "time": "2023-11-08T09:49:34.843-08:00"
+}
+1818 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66127",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T09:49:35-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T09:49:35-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20609",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 715.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 6.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-03",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-05",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 5940.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1818",
+            "name": "PAL Environmental"
+        },
+        "BillAddr": {
+            "Id": "4141"
+        },
+        "ShipAddr": {
+            "Id": "4141"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4904",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 5940.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 5940.0
+    },
+    "time": "2023-11-08T09:49:35.783-08:00"
+}
+304 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66128",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T09:49:36-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T09:49:36-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20610",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 468.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-01",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 187.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 468.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-02",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 187.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 1000.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 125,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 468.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-11-04",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 187.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 2406.25,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "304",
+            "name": "Gilbane - 42 Trinity (J07130.000)"
+        },
+        "BillAddr": {
+            "Id": "441",
+            "Line1": "88 Pine Street, 27th Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10005"
+        },
+        "ShipAddr": {
+            "Id": "441",
+            "Line1": "88 Pine Street, 27th Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10005"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4905",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 2406.25,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 2406.25
+    },
+    "time": "2023-11-08T09:49:36.630-08:00"
+}
+1224 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66133",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T10:19:15-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T10:19:15-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20606",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 464.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 4,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 464.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 4,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 464.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 4,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 464.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 4,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 464.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 4,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 2320.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1224",
+            "name": "Urban Atelier Group, LLC - 67 Vestry St"
+        },
+        "BillAddr": {
+            "Id": "4899",
+            "Line1": "85 5th Avenue, 12th Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10003"
+        },
+        "ShipAddr": {
+            "Id": "4899",
+            "Line1": "85 5th Avenue, 12th Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10003"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4906",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 2320.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 2320.0
+    },
+    "time": "2023-11-08T10:19:15.064-08:00"
+}
+1526 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66134",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T10:19:16-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T10:19:16-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20607",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 920.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 115,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 480.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 60,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 920.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 115,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 480.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 60,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 920.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 115,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 480.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 60,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 920.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 115,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 480.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 60,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 920.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 115,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 480.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 60,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 7000.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1526",
+            "name": "Hunter Roberts - 111 Wall Street"
+        },
+        "BillAddr": {
+            "Id": "4654",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "ShipAddr": {
+            "Id": "4654",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4907",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 7000.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 7000.0
+    },
+    "time": "2023-11-08T10:19:16.445-08:00"
+}
+1691 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66135",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T10:19:17-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T10:19:17-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20608",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at double time rate",
+                "Amount": 1856.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-21",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 232,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Fire safety management work at double time rate",
+                "Amount": 1040.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-21",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 130,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 348.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 435.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "12",
+                "LineNum": 12,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 435.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "13",
+                "LineNum": 13,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "14",
+                "LineNum": 14,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "15",
+                "LineNum": 15,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "16",
+                "LineNum": 16,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 348.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "17",
+                "LineNum": 17,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "18",
+                "LineNum": 18,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "19",
+                "LineNum": 19,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 928.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 116,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "20",
+                "LineNum": 20,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 261.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 174,
+                    "Qty": 1.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "21",
+                "LineNum": 21,
+                "Description": "Fire safety management work at regular time rate",
+                "Amount": 520.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 65,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "22",
+                "LineNum": 22,
+                "Description": "Fire safety management work at over time rate",
+                "Amount": 243.75,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "12",
+                        "name": "Fire Safety Management"
+                    },
+                    "UnitPrice": 97.5,
+                    "Qty": 2.5,
+                    "ItemAccountRef": {
+                        "value": "155",
+                        "name": "Sales:Services Provided Income:Site & Fire Safety Coverage"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 13181.75,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1691",
+            "name": "Urban Atelier Group, LLC - 100 Flatbush Ave"
+        },
+        "BillAddr": {
+            "Id": "4136",
+            "Line1": "100 Flatbush Ave",
+            "City": "Brooklyn",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "11217"
+        },
+        "ShipAddr": {
+            "Id": "4136",
+            "Line1": "100 Flatbush Ave",
+            "City": "Brooklyn",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "11217"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4908",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 13181.75,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 13181.75
+    },
+    "time": "2023-11-08T10:19:17.115-08:00"
+}
+1697 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66136",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T10:19:18-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T10:19:18-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20609",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at double time rate",
+                "Amount": 2200.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-21",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 220,
+                    "Qty": 10,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 1155.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 7,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 8250.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1697",
+            "name": "Hunter Roberts - 125 Barclay Street"
+        },
+        "BillAddr": {
+            "Id": "3764",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "ShipAddr": {
+            "Id": "3764",
+            "Line1": "55 Water Street, 51st Floor",
+            "City": "New York",
+            "CountrySubDivisionCode": "NY",
+            "PostalCode": "10041"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4909",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 8250.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 8250.0
+    },
+    "time": "2023-11-08T10:19:17.867-08:00"
+}
+1818 : {
+    "Invoice": {
+        "AllowIPNPayment": false,
+        "AllowOnlinePayment": false,
+        "AllowOnlineCreditCardPayment": false,
+        "AllowOnlineACHPayment": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "66137",
+        "SyncToken": "0",
+        "MetaData": {
+            "CreateTime": "2023-11-08T10:19:18-08:00",
+            "LastModifiedByRef": {
+                "value": "9130354347985976"
+            },
+            "LastUpdatedTime": "2023-11-08T10:19:18-08:00"
+        },
+        "CustomField": [
+            {
+                "DefinitionId": "1",
+                "Name": "Location",
+                "Type": "StringType"
+            }
+        ],
+        "DocNumber": "20610",
+        "TxnDate": "2023-11-08",
+        "CurrencyRef": {
+            "value": "USD",
+            "name": "United States Dollar"
+        },
+        "LinkedTxn": [],
+        "Line": [
+            {
+                "Id": "1",
+                "LineNum": 1,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "2",
+                "LineNum": 2,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-23",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "3",
+                "LineNum": 3,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 715.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 6.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "4",
+                "LineNum": 4,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 55.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 0.5,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "5",
+                "LineNum": 5,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-24",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "6",
+                "LineNum": 6,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "7",
+                "LineNum": 7,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-25",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "8",
+                "LineNum": 8,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "9",
+                "LineNum": 9,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-26",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "10",
+                "LineNum": 10,
+                "Description": "Site safety management work at regular time rate",
+                "Amount": 880.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 110,
+                    "Qty": 8,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Id": "11",
+                "LineNum": 11,
+                "Description": "Site safety management work at over time rate",
+                "Amount": 330.0,
+                "DetailType": "SalesItemLineDetail",
+                "SalesItemLineDetail": {
+                    "ServiceDate": "2023-10-27",
+                    "ItemRef": {
+                        "value": "174",
+                        "name": "Site Safety Management"
+                    },
+                    "UnitPrice": 165,
+                    "Qty": 2,
+                    "ItemAccountRef": {
+                        "value": "159",
+                        "name": "Sales:Services Provided Income:Consulting Income"
+                    },
+                    "TaxCodeRef": {
+                        "value": "NON"
+                    }
+                }
+            },
+            {
+                "Amount": 5940.0,
+                "DetailType": "SubTotalLineDetail",
+                "SubTotalLineDetail": {}
+            }
+        ],
+        "CustomerRef": {
+            "value": "1818",
+            "name": "PAL Environmental"
+        },
+        "BillAddr": {
+            "Id": "4141"
+        },
+        "ShipAddr": {
+            "Id": "4141"
+        },
+        "FreeFormAddress": true,
+        "ShipFromAddr": {
+            "Id": "4910",
+            "Line1": "1200 Waters Place, Suite 105, PMB #85801",
+            "Line2": "Bronx, NY  10461 US"
+        },
+        "DueDate": "2023-12-08",
+        "TotalAmt": 5940.0,
+        "ApplyTaxAfterDiscount": false,
+        "PrintStatus": "NeedToPrint",
+        "EmailStatus": "NotSet",
+        "Balance": 5940.0
+    },
+    "time": "2023-11-08T10:19:18.617-08:00"
+}
