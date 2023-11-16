@@ -21,8 +21,8 @@ def load_docs(directory):
   documents = loader.load()
   return documents
 
-documents = load_docs(directory)
-print(len(documents))
+#documents = load_docs(directory)
+#print(len(documents))
 
 #chunking docs
 def split_docs(documents, chunk_size=1000, chunk_overlap=20):
@@ -30,11 +30,12 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=20):
   docs = text_splitter.split_documents(documents)
   return docs
 
-docs = split_docs(documents)
-print(len(docs))
+#docs = split_docs(documents)
+#print(len(docs))
 
 #openai embeddings
 embeddings = OpenAIEmbeddings(openai_api_key = openai_key)
+print("got embeddings")
 #embeddings = OpenAIEmbeddings()
 # query_result = embeddings.embed_query("Hello world")
 # print(len(query_result))
@@ -49,7 +50,7 @@ index_name = "langchain-demo-index"
 
 # index = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 index = Pinecone.from_existing_index(index_name, embeddings)
-
+print("got index")
 
 #similar documents query which finds and crops items of importance
 def get_similiar_docs(query, k=2, score=False):
