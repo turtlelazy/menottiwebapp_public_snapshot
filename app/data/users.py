@@ -20,6 +20,9 @@ def create_user(email,password,user_type):
 def admin_verification(email):
     return users.get_value(email,"user_type") == "admin"
 
+def user_type(email):
+    return users.get_value(email,"user_type")
+
 def get_salt(email):
     return users.get_value(email,"salt")
 def get_hash(email):
@@ -43,9 +46,22 @@ def verify_user(email, password):
     return get_hash(email) == hashed
 
 if __name__ == "__main__":
-    create_user("ishraq@menottienterprise.com","543543is","admin")
-    print(user_exists("ishraq@menottienterprise.com"))
-    print(verify_user("ishraq@menottienterprise.com","543543is"))
-    print(admin_verification("ishraq@menottienterprise.com"))
+    # create_user("ishraq@menottienterprise.com","543543is","admin")
+    # print(user_exists("ishraq@menottienterprise.com"))
+    # print(verify_user("ishraq@menottienterprise.com","543543is"))
+    # print(admin_verification("ishraq@menottienterprise.com"))
+    # print(create_user("onsite","menottienterprise1","onsite"))
+    # print(user_exists("onsite"))
+    # print(verify_user("onsite","menottienterprise1"))
+    # print(admin_verification("onsite"))
+    # print(create_user("kari@menottienterprise.com","menottienterprise0","management"))
+    # print(user_exists("kari@menottienterprise.com"))
+    # print(verify_user("kari@menottienterprise.com","menottienterprise0"))
+    # print(admin_verification("kari@menottienterprise.com"))
+    print(create_user("hunter@menottienterprise.com","menottienterprise1","management,onsite"))
+    print(user_exists("hunter@menottienterprise.com"))
+    print(verify_user("hunter@menottienterprise.com","menottienterprise1"))
+    print(admin_verification("hunter@menottienterprise.com"))
+
 
 # print(user_exists("foo"))

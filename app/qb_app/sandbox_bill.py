@@ -66,15 +66,15 @@ def return_date(year: int, month: int, day: int, weekday: str):
 
 def line_to_format(input_line, year: int, month: int, day: int):
     role_descriptions = {
-        "SSM": "Site safety management",
-        "FSM": "Fire safety management",
-        "QSP":"QSP",
-        "Super":"Superintendent",
-        "CSM" : "Concrete safety management",
-        "Laborer" : "On-site staffing",
-        "SSC":"Site safety coordinator",
-        "Flagger":"Flagger",
-        "Fire Guard" : "Fire Guard"
+        "ssm": "Site safety management",
+        "fsm": "Fire safety management",
+        "qsp":"QSP",
+        "super":"Superintendent",
+        "csm" : "Concrete safety management",
+        "laborer" : "On-site staffing",
+        "ssc":"Site safety coordinator",
+        "flagger":"Flagger",
+        "fire guard" : "Fire Guard"
     }
 
     rate_descriptions = {
@@ -84,39 +84,39 @@ def line_to_format(input_line, year: int, month: int, day: int):
     }
 
     service_ids = {
-        "SSM": {
+        "ssm": {
             "name": "Site Safety Management",
             "value": 174
         },
-        "FSM": {
+        "fsm": {
             "name": "Fire Safety Management",
             "value": 12
         },
-        "QSP":{
+        "qsp":{
             "name": "Qualified Safety Person (QSP)",
             "value": 199
         },
-        "Super":{
+        "super":{
             "name": "Full Time Superintendent",
             "value": 74
         },
-        "CSM" : {
+        "csm" : {
             "name": "Concrete Safety Management",
             "value": 66
         },
-        "Laborer" : {
+        "laborer" : {
             "name": "On-Site Staffing",
             "value": 230
         },
-        "SSC" : {
+        "ssc" : {
             "name": "Full Time Site & Fire Safety Coverage",
             "value": 26 
         },
-        "Flagger" :{
+        "flagger" :{
             "name":"N/a",
             "value":26
         },
-        "Fire Guard" :{
+        "fire guard" :{
             "name":"Fire Guard",
             "value":32
         }
@@ -138,9 +138,9 @@ def line_to_format(input_line, year: int, month: int, day: int):
                                     "ServiceDate": return_date(year,month,day,input_line["Date"])} #replace service date with date based on first day
         # replace description with stuff that needs to go there
         #print(input_line)
-        line["Description"] = f'{role_descriptions[input_line["Role"]]} work at {rate_descriptions[input_line["Rate"]]}'
+        line["Description"] = f'{role_descriptions[input_line["Role"].lower()]} work at {rate_descriptions[input_line["Rate"]]}'
         
-        line["SalesItemLineDetail"]["ItemRef"] = service_ids[input_line["Role"]]
+        line["SalesItemLineDetail"]["ItemRef"] = service_ids[(input_line["Role"]).lower()]
     return line
 
 
@@ -160,14 +160,9 @@ def invoice_to_JSON(invoice, id, year: int, month: int, day: int):
 def invoice_collection_to_JSON(invoice_collection: dict, year: int, month: int, day: int):
     total_collection = []
     for invoice in invoice_collection.keys():
-        # try:
         if invoice_collection[invoice][0]["Billing"] == "Rate":
             invoice_JSON = invoice_to_JSON(invoice_collection[invoice], invoice,year,month,day)
             total_collection.append(invoice_JSON)
-        # except Exception as error:
-        #     print(f"problem with invoice {invoice}")
-        #     print("An exception occurred:", error) # An exception occurred: division by zero
-
     
     return total_collection
 
@@ -190,4 +185,3 @@ if __name__ == "__main__":
             total += shift["Total"]
         rates_stuffs = pd.read_csv("temp_rates.csv")
         print(f"{get_name_by_id(rates_stuffs,company)} : {total}")
-#print(json.dumps(invoice_collection,indent=4))

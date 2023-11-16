@@ -1,3 +1,4 @@
+from answer import get_answer
 from flask import Flask  # facilitate flask webserving
 from flask import render_template  # facilitate jinja templating
 from flask import request
@@ -13,7 +14,6 @@ import pandas
 import os
 from os.path import join, dirname, realpath
 from werkzeug.utils import secure_filename
-from answer import get_answer
 
 # from answer.py import get_answer
 #the conventional way:
@@ -77,7 +77,7 @@ def ask_gpt():
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
 
-    if admin_verification(session['email']):
+    if admin_verification(session['email']) or "onsite" in user_type(session['email']):
         if request.method == "GET":
             return render_template("qa_search.html",error="",response="")
         elif request.method == "POST":
@@ -93,7 +93,7 @@ def bill():
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
 
-    if admin_verification(session['email']):
+    if admin_verification(session['email']) or "management" in user_type(session['email']) :
         return render_template("billing_upload.html",error="")
     else:
         return redirect("/")
@@ -103,7 +103,7 @@ def upload_data():
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
 
-    if admin_verification(session['email']) and request.method == "POST":
+    if (admin_verification(session['email']) or "management" in user_type(session['email'])  ) and request.method == "POST":
         if 'week' not in request.files:
             return redirect(request.url)
         if 'rates' not in request.files:
@@ -149,7 +149,7 @@ def qb_bill_confirm():
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
 
-    if admin_verification(session['email']) and request.method == "POST":
+    if (admin_verification(session['email']) or "management" in user_type(session['email'])) and request.method == "POST":
         session['bill_locations'] = request.form.getlist('location_id')
         rates_filepath = os.path.join(app.config['UPLOAD_FOLDER'],f"rates_{unique_name(session['email'])}.csv")
         df_rates = pandas.read_csv(rates_filepath)
@@ -167,7 +167,7 @@ def qb_bill_confirm():
 def process_invoices():
     if not 'email' in session or session['email'] == "":
         return redirect("/login")
-    if admin_verification(session['email']) and request.method == "POST":
+    if (admin_verification(session['email']) or "management" in user_type(session['email'])) and request.method == "POST":
 
         auth_code = request.form.get("auth_code", default="")
         realm_id = request.form.get("realm_id", default="")
