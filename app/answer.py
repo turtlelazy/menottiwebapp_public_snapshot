@@ -77,10 +77,10 @@ def get_answer(query):
   answer = chain.run(input_documents=similar_docs, question=query)
   return answer
 
-try:
-  print(get_answer("What is the requirement for scaffolding?"))
-except:
-  print("Failed to initialize")
+# try:
+#   print(get_answer("What is the requirement for scaffolding?"))
+# except:
+#   print("Failed to initialize")
 
 if __name__ == "__main__": #false if this file imported as module
   query = "When is a pre-fire safety plan required?"

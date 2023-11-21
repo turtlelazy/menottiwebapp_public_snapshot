@@ -33,11 +33,11 @@
         <tbody>
             {% for item in invoice %}
             <tr>
-                <td>{{item.Date}}</td>
-                <td>{{item.Role}}</td>
-                <td>{{item.Hours}}</td>
-                <td>{{item.RateVal}}</td>
-                <td>{{item.Total}}</td>
+                <td>{{item.SalesItemLineDetail.ServiceDate}}</td>
+                <td>{{item.SalesItemLineDetail.ItemRef.name}}</td>
+                <td>{{item.SalesItemLineDetail.Qty}}</td>
+                <td>{{item.SalesItemLineDetail.UnitPrice}}</td>
+                <td>{{item.Amount}}</td>
             </tr>
             {% endfor %}
         </tbody>

@@ -17,17 +17,20 @@
     <h1>Quickbooks Automated Billing</h1> <br>
         <form class="" action="/upload" method="POST" enctype=multipart/form-data>
             <h3>Upload the required files below to proceed</h3>
-            <h4>For bi-weekly billing, <a href="/billing_bi">click here</a></h3>
+            <h4>For single week billing, <a href="/billing">click here</a></h3>
 
-            <label for="week" class="form-label">Choose Week CSV File</label>
+            <label for="week" class="form-label">Choose Week 1 CSV File</label>
             <input class="form-control" type="file" id="week" name="week" required>
             <br>
+            <label for="week2" class="form-label">Choose Week 2 CSV File</label>
+            <input class="form-control" type="file" id="week2" name="week2" required>
+            <br>
+
             <label for="rates" class="form-label">Choose Rates CSV File</label>
             <input class="form-control" type="file" id="rates" name="rates" required>
             <br>
             <label for="start_date">Start date:</label>
-            <input type="date" name="start_date">
-
+            <input type="date" name="start_date"> 
             {% if error != "" %}
             <p style="color:red">{{ error }}</p>
             {% endif %}

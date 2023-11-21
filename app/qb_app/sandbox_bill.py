@@ -166,7 +166,34 @@ def invoice_collection_to_JSON(invoice_collection: dict, year: int, month: int, 
     
     return total_collection
 
+def collection_keys(invoice_JSON:list):
+    keys_l = []
+    for item in invoice_JSON:
+        keys_l.append(item["CustomerRef"]["value"])
+    return keys_l
 
+def combine_JSON_collections(invoice_collection_0,invoice_collection_1):
+    combined = []
+    for i in range(len(invoice_collection_0)):
+        item = invoice_collection_0[i]
+        combined.append(item)
+    for i in range(len(invoice_collection_1)):
+        added = False
+        item = invoice_collection_1[i]
+        for j in range(len(combined)):
+            existing = combined[j]
+            if existing["CustomerRef"]["value"] == item["CustomerRef"]["value"]:
+                for line in item["Line"]:
+                    combined[j]["Line"].append(line)
+                # print(combined[j])
+                # print()
+                added = True
+                break
+        if not added:
+            combined.append(item)
+    # print(combined[10])
+    print()
+    return combined
 
 # year = int(input("What year is the first day on?"))
 # month = int(input("What month (number) is the first day on?"))
