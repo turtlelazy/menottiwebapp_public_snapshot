@@ -13,4 +13,4 @@ The automatic billing integration relies on pandas and calls to the Quickbooks A
 By utilizing OpenAI's GPT 3.5-turbo API, I utilize langchain and embed New York City's construction safety and guidelines code book. Using these embeddings, GPT can be prompted to answer questions regarding this code book. This way, rather than going through the code book manually, GPT can grab the necessary information and respond to a user's prompts. 
 
 ## Deployment
-This repo is deployed to a DigitalOcean droplet for Menotti Enterprise, LLC, using Guinicorn.
+The private, up-to-date repo is deployed to a DigitalOcean droplet for Menotti Enterprise, LLC, using Guinicorn.
